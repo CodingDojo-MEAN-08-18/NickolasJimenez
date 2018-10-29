@@ -1,0 +1,3 @@
+[submodule "RestfulInteractive"]
+	path = RestfulInteractive
+	url = ./Angular/RestfulInteractive
