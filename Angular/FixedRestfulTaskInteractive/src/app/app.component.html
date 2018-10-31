@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>
+  Welcome to {{ title }}!
+  <div *ngFor="let stuff of tasks_title">
+    <ul>
+      <li>{{ stuff.title }}<button (click) = "displayInfo(stuff._id)">Info</button></li>
+    </ul>
+  </div>
+  <h3>{{tasks_info.title}}</h3>
+  <p>{{tasks_info.description}}</p>
+</h1>
+<button (click) = "showAll()">Get All Tasks</button>
