@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Chicago, IL</h1>
+  <div class="main">
+    <div class="box">
+      <div *ngFor="let w of weather">
+        <p><b>Humidity:</b> {{w.humidity}}</p>
+        <p><b>Temperature (Average):</b> {{w.temp}}</p>
+        <p><b>Temperature (High):</b> {{w.temp_max}}</p>
+        <p><b>Temperature (Low):</b> {{w.temp_min}}</p>
+      </div>
+      <div *ngFor="let s of status" >
+        <p><b>Status:</b> {{s.description}}</p>
+      </div>
+    </div>
+    <div class="box">
+      <img src="assets/chicago.jpeg">
+    </div>
+  </div>
+</div>

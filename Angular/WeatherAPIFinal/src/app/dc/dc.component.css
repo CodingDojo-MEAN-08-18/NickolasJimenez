@@ -1,0 +1,20 @@
+.container {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main {
+  display: inline-flex;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.box {
+  padding: 10px;
+  margin: 20px;
+}
