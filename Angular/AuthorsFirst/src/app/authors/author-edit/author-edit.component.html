@@ -1,0 +1,19 @@
+<!-- <h1>author edit component</h1>
+<textarea rows="6" [(ngModel)]="enteredValue" id="name">{{ newAuthor }} </textarea>
+<p>{{ newAuthor }}</p>
+<div *ngIf="newAuthor" class="name">{{newAuthor}}</div> -->
+
+<mat-card>
+  <h2>Favorite Authors</h2>
+  <a routerLink='/'>Home</a>
+  <h3>Edit this author:</h3>
+<mat-form-field>
+  <form>
+    <legend>Name: </legend>
+    <input matInput type="text" name="name" [(ngModel)]="enteredValue">
+    <br>
+    <button (click)="onEditAuthor()">Cancel</button>
+    <button mat-raised-button (click)="onEditAuthor()">Submit</button>
+  </form>
+</mat-form-field>
+</mat-card>
