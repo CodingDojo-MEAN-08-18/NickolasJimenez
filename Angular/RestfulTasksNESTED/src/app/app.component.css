@@ -1,0 +1,38 @@
+.main-box {
+  border: 3px solid orange;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.btn {
+  border: 3px solid mediumblue;
+  width: 600px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  border: none;
+  background-color: darkorchid;
+  color: white;
+  height: 30px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.btn-show {
+  background-color: coral;
+  width: 75px;
+}
+
+td {
+  padding: 10px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}

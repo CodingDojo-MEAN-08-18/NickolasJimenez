@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center" class="main-box">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+<div class="btn">
+  <button (click)="getTaskFromService()">Get All Tasks</button>
+  <table>
+    <tr *ngFor="let t of tasks">
+      <td>{{ t.title }}</td>
+      <td><button class="btn-show" (click)="getTaskByIDFromService(t._id)">Show</button></td>
+    </tr>
+  </table>
+  <div class="show">
+    <hr>
+    <app-task *ngIf="show" [taskToShow]="show" ></app-task>
+  </div>
+</div>
+
+<h2>Blank  </h2>
+<ul>
+
+</ul>
+</div>
+<router-outlet></router-outlet>
